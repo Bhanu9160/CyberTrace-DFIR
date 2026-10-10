@@ -1,0 +1,68 @@
+{
+    "tool": "CyberTrace-DFIR",
+    "generated_at_utc": "2026-10-10T17:03:10.415422+00:00",
+    "evidence_folder": "C:\\Users\\Bhanu prakash\\Documents\\CyberTrace-DFIR\\samples",
+    "total_files": 5,
+    "files": [
+        {
+            "file_name": "evidence_copy.txt",
+            "relative_path": "evidence_copy.txt",
+            "file_size_bytes": 46,
+            "sha256": "b02d7e0089fdbebcea492a87102cab995c92f03b0f566e6a356c36a7bcd0310f",
+            "file_signature": {
+                "file_name": "evidence_copy.txt",
+                "extension": ".txt",
+                "detected_format": "Unknown / Unrecognized",
+                "signature_hex": "547261696E696E672065766964656E63"
+            }
+        },
+        {
+            "file_name": "evidence_original.txt",
+            "relative_path": "evidence_original.txt",
+            "file_size_bytes": 34,
+            "sha256": "1ef8c6f5896b241c1c9d2bc0e63303d00b9d0563ee3c3c773157aaffbdd0958f",
+            "file_signature": {
+                "file_name": "evidence_original.txt",
+                "extension": ".txt",
+                "detected_format": "Unknown / Unrecognized",
+                "signature_hex": "547261696E696E672065766964656E63"
+            }
+        },
+        {
+            "file_name": "integrity_test.txt",
+            "relative_path": "integrity_test.txt",
+            "file_size_bytes": 57,
+            "sha256": "383690c2464d5bf151aefaf60dabf383699ad5910b7e1f7d0efb077c18f145ce",
+            "file_signature": {
+                "file_name": "integrity_test.txt",
+                "extension": ".txt",
+                "detected_format": "Unknown / Unrecognized",
+                "signature_hex": "4F726967696E616C2065766964656E63"
+            }
+        },
+        {
+            "file_name": "sample.jpg",
+            "relative_path": "sample.jpg",
+            "file_size_bytes": 151249,
+            "sha256": "aaa613900ed583d2ff6dcbd56f0058787b61df6e2fad12ba9730e5c6cc61c79a",
+            "file_signature": {
+                "file_name": "sample.jpg",
+                "extension": ".jpg",
+                "detected_format": "JPEG Image",
+                "signature_hex": "FFD8FFE000104A464946000101000001"
+            }
+        },
+        {
+            "file_name": "suspicious_sample.txt",
+            "relative_path": "suspicious_sample.txt",
+            "file_size_bytes": 185,
+            "sha256": "21a6d21cb4c36fceafe55545ac16caf5e441ff0ccac872d6e55ad02b2b478248",
+            "file_signature": {
+                "file_name": "suspicious_sample.txt",
+                "extension": ".txt",
+                "detected_format": "Unknown / Unrecognized",
+                "signature_hex": "496E636964656E743A20544553542D30"
+            }
+        }
+    ]
+}
