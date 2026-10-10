@@ -1,0 +1,15 @@
+{
+    "tool": "CyberTrace-DFIR",
+    "manifest_version": 1,
+    "evidence_count": 1,
+    "evidence": [
+        {
+            "file_name": "sample.jpg",
+            "file_path": "samples\\sample.jpg",
+            "file_size_bytes": 151249,
+            "sha256": "aaa613900ed583d2ff6dcbd56f0058787b61df6e2fad12ba9730e5c6cc61c79a",
+            "extension": ".jpg",
+            "detected_format": "JPEG Image"
+        }
+    ]
+}
