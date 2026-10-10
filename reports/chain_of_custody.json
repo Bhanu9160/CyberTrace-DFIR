@@ -1,0 +1,16 @@
+[
+    {
+        "evidence_id": "EVD-001",
+        "handler": "Bhanu",
+        "action": "Evidence received",
+        "reason": "Initial forensic examination",
+        "timestamp_utc": "2026-10-10T07:03:56.098117+00:00"
+    },
+    {
+        "evidence_id": "EVD-001",
+        "handler": "Bhanu",
+        "action": "SHA-256 calculated",
+        "reason": "Establish reference hash for integrity checking",
+        "timestamp_utc": "2026-10-10T07:05:33.485020+00:00"
+    }
+]
