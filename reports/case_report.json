@@ -1,0 +1,27 @@
+{
+    "case_id": "CASE-001",
+    "generated_at_utc": "2026-10-10T06:49:34.319787+00:00",
+    "tool": "CyberTrace-DFIR",
+    "evidence": {
+        "metadata": {
+            "file_name": "sample.jpg",
+            "extension": ".jpg",
+            "file_size_bytes": 151249,
+            "created_time": "2026-10-10T07:13:04+05:30",
+            "modified_time": "2024-10-20T20:43:21+05:30",
+            "accessed_time": "2026-10-10T08:02:26+05:30"
+        },
+        "sha256": "aaa613900ed583d2ff6dcbd56f0058787b61df6e2fad12ba9730e5c6cc61c79a",
+        "file_signature": {
+            "file_name": "sample.jpg",
+            "extension": ".jpg",
+            "detected_format": "JPEG Image",
+            "signature_hex": "FFD8FFE000104A464946000101000001"
+        }
+    },
+    "indicator_scan": null,
+    "notes": [
+        "Automated findings require analyst review.",
+        "A suspicious indicator alone does not prove malicious activity."
+    ]
+}
