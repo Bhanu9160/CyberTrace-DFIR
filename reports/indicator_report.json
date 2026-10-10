@@ -1,0 +1,22 @@
+{
+    "file_name": "suspicious_sample.txt",
+    "findings_count": 4,
+    "findings": [
+        {
+            "type": "IPv4 address",
+            "value": "198.51.100.25"
+        },
+        {
+            "type": "URL",
+            "value": "http://example.com/test"
+        },
+        {
+            "type": "Suspicious keyword",
+            "value": "powershell.exe"
+        },
+        {
+            "type": "Suspicious keyword",
+            "value": "EncodedCommand"
+        }
+    ]
+}

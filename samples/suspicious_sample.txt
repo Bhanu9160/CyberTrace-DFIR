@@ -1,0 +1,5 @@
+Incident: TEST-001
+Source IP: 198.51.100.25
+URL: http://example.com/test
+Command: powershell.exe -EncodedCommand TRAINING_SAMPLE
+Note: This file is for CyberTrace-DFIR testing only.
