@@ -1,7 +1,13 @@
 .venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
 .env
-data/*
-!data/.gitkeep
-*.log
+
+# Private evidence and local working files
+data/uploads/
+samples/*
+!samples/README.md
+
+# Generated reports may contain sensitive information
+reports/*.json
