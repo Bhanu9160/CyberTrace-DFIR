@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-10-11T02:41:58.992225+00:00",
+  "generated_at_utc": "2026-10-11T02:48:29.857555+00:00",
   "summary_type": "DFIR Investigation Summary",
   "source_inventory": "reports\\evidence_inventory.json",
-  "total_files": 5,
-  "files_with_hashes": 5,
+  "total_files": 8,
+  "files_with_hashes": 8,
   "files_with_errors": 0,
   "indicator_findings": null,
   "chain_of_custody_events": 0,
