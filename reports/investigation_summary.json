@@ -1,0 +1,12 @@
+{
+  "generated_at_utc": "2026-10-11T02:41:58.992225+00:00",
+  "summary_type": "DFIR Investigation Summary",
+  "source_inventory": "reports\\evidence_inventory.json",
+  "total_files": 5,
+  "files_with_hashes": 5,
+  "files_with_errors": 0,
+  "indicator_findings": null,
+  "chain_of_custody_events": 0,
+  "review_required": true,
+  "analyst_note": "Automated summary only. Validate findings manually; indicators do not independently prove malicious activity."
+}
