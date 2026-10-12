@@ -10,6 +10,7 @@ from streamlit_autorefresh import st_autorefresh
 from app.forensic.hashing import calculate_sha256
 from app.forensic.metadata import analyze_metadata
 from app.forensic.signatures import analyze_file_type
+from app.forensic.severity_classifier import classify_event
 
 
 # --------------------------------------------------
@@ -279,8 +280,8 @@ elif page == "Live Monitoring":
     events = load_live_events()
     events_df = pd.DataFrame(events)
 
-if not events_df.empty:
-    events_df["Severity"] = events_df.apply(
+    if not events_df.empty:
+        events_df["Severity"] = events_df.apply(
         lambda row: classify_event(row.to_dict()),
         axis=1
     )
